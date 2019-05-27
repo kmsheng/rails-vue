@@ -1,5 +1,5 @@
 # Rails Vue
-Sample rails project with webpacker and vue.
+Sample rails project integrates with webpacker and vue.
 
 ## Development
 ```shell
