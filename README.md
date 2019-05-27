@@ -15,3 +15,9 @@ yarn
 # Run ROR
 rails server
 ```
+
+# Production
+```shell
+bundle exec rake webpacker:compile
+SECRET_KEY_BASE=secret RAILS_SERVE_STATIC_FILES=1 rails server -e production
+```
