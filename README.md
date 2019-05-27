@@ -15,3 +15,7 @@ yarn
 # Run ROR
 rails server
 ```
+
+## Environment
+ - Ruby 2.5.0
+ - Rails 4.2.11.1
