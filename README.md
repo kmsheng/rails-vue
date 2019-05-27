@@ -16,6 +16,12 @@ yarn
 rails server
 ```
 
+# Production
+```shell
+bundle exec rake webpacker:compile
+SECRET_KEY_BASE=secret RAILS_SERVE_STATIC_FILES=1 rails server -e production
+```
+
 ## Environment
  - Ruby 2.5.0
  - Rails 4.2.11.1
