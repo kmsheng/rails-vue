@@ -1,4 +1,5 @@
 # Rails Vue
+Sample rails project with webpacker and vue.
 
 ## Development
 ```shell
