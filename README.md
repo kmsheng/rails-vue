@@ -18,6 +18,7 @@ rails server
 
 # Production
 ```shell
+bundle exec rake assets:precompile
 bundle exec rake webpacker:compile
 SECRET_KEY_BASE=secret RAILS_SERVE_STATIC_FILES=1 rails server -e production
 ```
